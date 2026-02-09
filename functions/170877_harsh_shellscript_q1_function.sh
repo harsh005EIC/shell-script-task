@@ -1,62 +1,67 @@
+# File : 170877_harsh_shellscript_q1_function.sh
+# Author : harsh kerai
+# Date : 7 jan 2026
+# Description : Write a script to take two numbers as input and perform addition,
+#               subtraction, multiplication, and division.
 #!/bin/bash
 number_regex='^-?[0-9]+([.].[0-9]+)?$'
 
 validate_num1() {
-    if [[ -z "$1" ]]; then
-        echo "Num1 is not valid"
+	if [[ -z "$1" ]]; then
+        	echo "Num1 is not valid"
         return 1
-    elif ! [[ $1 =~ $number_regex ]]; then
-        echo "num1 is not a valid number"
+	elif ! [[ $1 =~ $number_regex ]]; then
+        	echo "num1 is not a valid number"
         return 1
-    fi
+	fi
         num="$1"
         digits=${num#[-+]}
         if (( ${#digits} > 10 )); then
         echo "Very large number"
         return 1
         fi
-    return 0
+	return 0
 
 }
 
 validate_num2() {
-    if [[ -z "$1" ]]; then
-        echo "Num2 is not valid"
+	if [[ -z "$1" ]]; then
+        	echo "Num2 is not valid"
         return 1
-    elif ! [[ $1 =~ $number_regex ]]; then
-        echo "num2 is not a valid number"
+	elif ! [[ $1 =~ $number_regex ]]; then
+        	echo "num2 is not a valid number"
         return 1
-    fi
+	fi
         num="$2"
         digits=${num#[-+]}
         if (( ${#digits} > 10 )); then
         echo "Very large number"
         return 1
         fi
-    return 0
+	return 0
 }
 
 calculate() {
-    n1=$1
-    n2=$2 
+	n1=$1
+	n2=$2
 
-    add=$(echo "$n1 + $n2" | bc)
-    sub=$(echo "$n1 - $n2" | bc)
-    mul=$(echo "$n1 * $n2" | bc)
+ add=$(echo "$n1 + $n2" | bc)
+ sub=$(echo "$n1 - $n2" | bc)
+ mul=$(echo "$n1 * $n2" | bc)
+	echo "Add:$add"
+	echo "sub:$sub"
+	echo "mul:$mul"
 
-    echo "Add:$add"
-    echo "sub:$sub"
-    echo "mul:$mul"
+	if [[ $(echo "$n2 == 0" | bc) -eq 1 ]]; then
+        	if [[ $(echo "$n1 == 0" | bc) -eq 1 ]]; then
+            		echo "div : undefined"
+	        else
+            		echo "div : can not divide by zero instead error"
+        	fi
 
-    if [[ $(echo "$n2 == 0" | bc) -eq 1 ]]; then
-        if [[ $(echo "$n1 == 0" | bc) -eq 1 ]]; then
-            echo "div : undefined"
-        else
-            echo "div : can not divide by zero instead error"
-        fi
-    else
-        div=$(echo "scale=2; $n1 / $n2" | bc)
-        echo "div : $div"
-    fi
+	else
+        	div=$(echo "scale=2; $n1 / $n2" | bc)
+        	echo "div : $div"
+	fi
 
 }

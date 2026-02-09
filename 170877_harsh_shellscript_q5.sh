@@ -1,3 +1,10 @@
+# File : 170877_harsh_shellscript_q5.sh
+# Author : harsh kerai
+# Date : 9 jan 2026
+# Description : Write a script that takes a directory as input,
+#		creates a backup of all .txt files,
+#		and stores them in a compressed archive with the current date as the filename.
+# 		(create txt file in your home directory)
 #!/bin/bash
 while true
 do

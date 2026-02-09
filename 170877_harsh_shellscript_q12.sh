@@ -1,3 +1,8 @@
+# File : 170877_harsh_shellscript_q12.sh
+# Author : harsh kerai
+# Date : 16 jan 2026
+# Description : Write a script that generates a disk usage report 
+#		for all mounted file systems and saves it to a file.
 #!/bin/bash
 
 source /home/harsh005/shell_script/functions/170877_harsh_shellscript_q12_function.sh

@@ -1,3 +1,8 @@
+# File : 170877_harsh_shellscript_q11.sh
+# Author : harsh kerai
+# Date : 13 jan 2026
+# Description : Write a script that monitors CPU and memory usage, logs the data to a file,
+#		and alerts if usage exceeds a specified threshold.
 #!/bin/bash
 source /home/harsh005/shell_script/functions/170877_harsh_shellscript_q11_function.sh
 LOG_FILE="$HOME/system_usage.log"

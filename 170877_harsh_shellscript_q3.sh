@@ -1,3 +1,7 @@
+# File : 170877_harsh_shellscript_q3.sh
+# Author : harsh kerai
+# Date : 8 jan 2026
+# Description : Write a script to compare three numbers and print the largest one.
 #!/bin/bash
 
 source /home/harsh005/shell_script/functions/170877_harsh_shellscript_q3_function.sh
