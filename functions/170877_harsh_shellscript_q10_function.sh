@@ -14,7 +14,7 @@ check_input(){
 	fi
 
 	if [ "$length" -le 0 ]; then
-		echo "Password length must be greater than 0."
+		echo "Password length must be greater than 0 and positive number"
 	return 1
 	fi
 
@@ -28,5 +28,5 @@ generate_password(){
 length="$1"
 chars='A-Za-z0-9!@#$%^&*()_+{}|:<>?~'
 password=$(tr -dc "$chars" < /dev/urandom | head -c "$length")
-echo "password: $password"
+echo "generated password: $password "
 }
