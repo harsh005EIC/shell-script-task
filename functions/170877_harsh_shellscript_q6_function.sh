@@ -11,7 +11,7 @@ check_process_runnnig(){
 	return 1
 	fi
 
-	if pgrep -x "$1" > /dev/null; then
+	if pgrep -x -i "$1" > /dev/null; then
 		echo "Process "$1" is running."
 	return 0
 

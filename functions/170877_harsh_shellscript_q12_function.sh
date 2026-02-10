@@ -17,11 +17,6 @@ check_valid_file(){
 	output_file="$HOME/$output_file"
 	fi
 
-	if [[ "$output_file" != *.txt ]]; then
-		echo "not valid file path. enter .txt file"
-	return 1
-	fi
-
 	return 0
 }
 
