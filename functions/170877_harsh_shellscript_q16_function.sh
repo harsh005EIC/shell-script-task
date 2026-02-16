@@ -1,6 +1,6 @@
 # File : 170877_harsh_shellscript_q16_function.sh
 # Author : harsh kerai
-# Date : 19 jan 2026
+# Date : 23 jan 2026
 # Description : Write a script to  Read the Kernel log file to find the kernel panic
 #               segmentation fault messages with full line with timestamp.
 

@@ -1,6 +1,6 @@
 # File : 170877_harsh_shellscript_q14_function.sh
 # Author : harsh kerai
-# Date : 16 jan 2026
+# Date : 23 jan 2026
 # Description : Write a script to count the number of occurrences of each word in a given text file,
 #               sorted by frequency.
 

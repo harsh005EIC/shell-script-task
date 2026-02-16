@@ -1,6 +1,6 @@
 # File : 170877_harsh_shellscript_q17_function.sh
 # Author : harsh kerai
-# Date : 19 jan 2026
+# Date : 23 jan 2026
 # Description : Generate the log file for any c program.
 
 check_file(){

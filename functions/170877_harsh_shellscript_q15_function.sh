@@ -1,6 +1,6 @@
 # File : 170877_harsh_shellscript_q15_function.sh
 # Author : harsh kerai
-# Date : 16 jan 2026
+# Date : 23 jan 2026
 # Description : File Globing  :  Create Files and Folders for  details entered :
 #                                Take  linux  username,  GID , firstname, taskid  as input
 #                                Script should Create main directory : GID_Firstname

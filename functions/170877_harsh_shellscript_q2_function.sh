@@ -1,6 +1,6 @@
 # File : 170877_harsh_shellscript_q2_function.sh
 # Author : harsh kerai
-# Date : 7 jan 2026
+# Date : 20 jan 2026
 # Description : Create a script that checks if a given number is even or odd.
 
 #!/bin/bash

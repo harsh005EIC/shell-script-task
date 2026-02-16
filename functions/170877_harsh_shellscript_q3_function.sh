@@ -1,6 +1,6 @@
 # File : 170877_harsh_shellscript_q3_function.sh
 # Author : harsh kerai
-# Date : 8 jan 2026
+# Date : 20 jan 2026
 # Description : Write a script to compare three numbers and print the largest one
 #!/bin/bash
 number_regex='^-?[0-9]+(\.[0-9]+)?$'
