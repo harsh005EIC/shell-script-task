@@ -1,6 +1,6 @@
 # File : 170877_harsh_shellscript_q6.sh
 # Author : harsh kerai
-# Date : 9 jan 2026
+# Date : 21 jan 2026
 # Description : Create a script that checks if a specific process 
 #		(given as an argument) is running and prints a message if it is not.
 #!/bin/bash

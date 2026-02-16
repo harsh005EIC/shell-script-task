@@ -1,6 +1,6 @@
 # File : 170877_harsh_shellscript_q1.sh
 # Author : harsh kerai
-# Date : 7 jan 2026
+# Date : 18 jan 2026
 # Description : Write a script to take two numbers as input and perform addition,
 #               subtraction, multiplication, and division.
 #!/bin/bash

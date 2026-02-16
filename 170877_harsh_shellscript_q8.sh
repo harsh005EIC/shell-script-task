@@ -1,6 +1,6 @@
 # File : 170877_harsh_shellscript_q8.sh
 # Author : harsh kerai
-# Date : 12 jan 2026
+# Date : 21 jan 2026
 # Description : Create a script that checks the size of a specified directory
 #		and warns if it exceeds a certain limit (e.g., 100MB).
 #!/bin/bash

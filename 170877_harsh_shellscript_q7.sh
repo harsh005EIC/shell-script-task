@@ -1,6 +1,6 @@
 # File : 170877_harsh_shellscript_q7.sh
 # Author : harsh kerai
-# Date : 12 jan 2026
+# Date : 21 jan 2026
 # Description : Write a script that adds a new user to the system (requires root privileges) and sets
 #               a default password.
 #!/bin/bash
